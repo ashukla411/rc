@@ -117,3 +117,8 @@ export NVM_DIR="$HOME/.nvm"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 source /usr/share/autojump/autojump.zsh
+source /home/ashish/perl5/perlbrew/etc/bashrc
+export PERL_CARTON_MIRROR=http://darkpan.semantics3.com:3000
+export SEM3_ENV=development
+export GOPATH=/home/ashish/gocode
+alias tkm="xdg-open $ARGV"
